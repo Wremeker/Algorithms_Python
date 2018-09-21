@@ -2,7 +2,7 @@
 
 Бинарый поиск
 ------------------------
-`
+```
 def binary_search(list, item):
     low = 0 # Нулевой элемент массива
     high = len(list) - 1 # Последний элемент массива
@@ -17,7 +17,5 @@ def binary_search(list, item):
         else:           # Если мало
             low = mid + 1
     return None
-
-
-`
+```
 
