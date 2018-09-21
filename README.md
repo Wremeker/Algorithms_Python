@@ -1,2 +1,2 @@
-# Algorithms and Data Structurs
+# Разрабор базовых алгоритмов и структур данных на языке Python
 
