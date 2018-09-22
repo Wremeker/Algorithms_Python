@@ -2,7 +2,7 @@
 # Функция для поиска наименьшего элемента в массива 
 def findSmallElementInArray(arr):
     smallset = arr[0] # Храненение наименьшего значения
-    smallset_index = 0 # Хранение наименьшего значения
+    smallset_index = 0 # Хранение индекса наименьшего значения
     for i in range(1, len(arr)): # Проход по массиву
         if arr[i] < smallset: # Если очередной элемент массива меньше наименьшего  
             smallset = arr[i] 
